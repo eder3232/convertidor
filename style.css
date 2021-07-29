@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
   box-sizing: border-box;
   padding: 0;
@@ -12,6 +12,21 @@ body {
   width: 100vw;
 }
 
+#developed {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: rgba(256, 256, 256, 0.25);
+}
+
+#eder {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  color: rgba(256, 256, 256, 0.35);
+  font-weight: bold;
+}
+
 div {
   height: 25vh;
 }
@@ -19,6 +34,7 @@ div {
 #kgcm {
   border-top: 4px solid white;
   border-bottom: 4px solid white;
+  font-family: Roboto, sans-serif;
 }
 
 #psi {
